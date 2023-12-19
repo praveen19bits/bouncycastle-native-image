@@ -37,7 +37,7 @@ public class DemoApplication {
 	@GetMapping("/test1")
 	public void test() throws Exception {
 		// Add Bouncy Castle as a security provider
-		Security.addProvider(new BouncyCastleProvider());
+		//Security.addProvider(new BouncyCastleProvider());
 
 		// Generate a symmetric key (AES)
 		SecretKey secretKey = generateSecretKey();
